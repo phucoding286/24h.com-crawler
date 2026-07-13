@@ -15,7 +15,7 @@ writer_metadata_path = f"{datasets_folder}/metadata.json"
 buffer_size = 128
 cooldown = 1
 # loop text là phần text thường xuất hiện nhiều nhất trong nội dung và tần suất crawl, buộc phải bỏ qua nếu muốn dữ liệu sạch.
-loop_text = "\nTRỤ SỞ HÀ NỘI\nTầng 12, Tòa nhà Geleximco , 36 Hoàng Cầu, Phường Ô chợ Dừa, Tp. Hà Nội\nĐiện thoại: (84-24) 73 00 24 24 | (84-24) 35 12 18 06\nFax: 0243 512 1804\nCHI NHÁNH TP.HỒ CHÍ MINH\nTầng 11, Cao ốc 123-127 Võ Văn Tần, phường Xuân Hòa, Tp. Hồ Chí Minh.\nĐiện thoại: (84-28) 73 00 24 24\nCÔNG TY CỔ PHẦN QUẢNG CÁO TRỰC TUYẾN 24H\nGIẤY PHÉP THIẾT LẬP TRANG THÔNG TIN ĐIỆN TỬ TỔNG HỢP TRÊN MẠNG.\nGiấy phép số 180/GP-STTTT ngày cấp 11/12/2024 - Sở thông tin và truyền thông Hà Nội.\nGiấy xác nhận thông báo cung cấp dịch vụ Mạng xã hội số 89 /GXN-PTTH&TTĐT do Cục Phát thanh, Truyền hình và Thông tin Điện tử cấp ngày 13 tháng 6 năm 2025.\nChịu trách nhiệm quản lý nội dung:Phan Minh Tâm -Chủ tịch HĐQT. Hotline:0965 08 24 24"
+loop_text = "\nTRỤ SỞ HÀ NỘI\nTầng 12, Tòa nhà Geleximco , 36 Hoàng Cầu, Phường Ô chợ Dừa, Tp. Hà Nội\nĐiện thoại: (84-24)73 00 24 24| (84-24)35 12 18 06\nFax:0243 512 1804\nCHI NHÁNH TP.HỒ CHÍ MINH\nTầng 11, Cao ốc 123-127 Võ Văn Tần, phường Xuân Hòa, Tp. Hồ Chí Minh.\nĐiện thoại: (84-28)73 00 24 24\nGIẤY PHÉP THIẾT LẬP TRANG THÔNG TIN ĐIỆN TỬ TỔNG HỢP TRÊN MẠNG.\nGiấy phép số 180/GP-STTTT ngày cấp 11/12/2024 - Sở thông tin và truyền thông Hà Nội.\nGiấy xác nhận thông báo cung cấp dịch vụ Mạng xã hội số 89 /GXN-PTTH&TTĐT do Cục Phát thanh, Truyền hình và Thông tin Điện tử cấp ngày 13 tháng 6 năm 2025.\nChịu trách nhiệm quản lý nội dung: Phan Minh Tâm - Chủ tịch HĐQT.\nHotline:0965 08 24 24"
 
 writer = JsonTextDataWriter(
     file=current_file_crawlpart,
